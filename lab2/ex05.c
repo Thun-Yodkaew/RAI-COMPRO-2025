@@ -15,6 +15,6 @@ int main()
     printf("Enter your university name: ");
     scanf("%s", uni);
 
-    printf("Hi! Everyone. This is %s.%s from %s. I am %d years old and my height is %.1f cm tall.", last[0], first, uni, age, height);
+    printf("Hi! Everyone. This is %c.%s from %s. I am %d years old and my height is %.1f cm tall.", last[0], first, uni, age, height);
     return 0;
 }
