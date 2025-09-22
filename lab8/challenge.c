@@ -1,7 +1,8 @@
 #include<stdio.h>
 
-int avg_grade(int grade[20], int num){
-    int i, avg = 0;
+float avg_grade(int grade[20], int num){
+    int i;
+    float avg = 0;
     for(i = 0; i < num; i++){
         avg += grade[i];
     }
@@ -57,7 +58,7 @@ int main()
     }
 
     printf("--- Results ---\n");
-    printf("Average grade: %d\n", avg_grade(student_g, num_s));
+    printf("Average grade: %f.2\n", avg_grade(student_g, num_s));
     printf("Highest grade: %d\n", high(student_g, num_s));
     printf("Lowest grade: %d\n", low(student_g, num_s));
 
